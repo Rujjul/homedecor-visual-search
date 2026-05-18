@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+*.env
+
+# Large data files (regeneratable)
+data/images/
+data/raw/
+embeddings/
+*.npy
+*.bin
+*.pkl
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
