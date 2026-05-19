@@ -43,7 +43,7 @@ print("ALL UNIQUE CATEGORIES")
 print("="*50)
 # Find the category column — check common names
 category_col = None
-for possible in ['category', 'Category', 'main_category', 'categoryName']:
+for possible in ['categoryName']:
     if possible in df.columns:
         category_col = possible
         break
@@ -66,7 +66,7 @@ print("IMAGE URL CHECK")
 print("="*50)
 
 img_col = None
-for possible in ['imgUrl', 'image_url', 'imageUrl', 'img_url', 'image']:
+for possible in ['imgUrl']:
     if possible in df.columns:
         img_col = possible
         break
@@ -86,7 +86,7 @@ print("\n" + "="*50)
 print("PRICE STATS")
 print("="*50)
 price_col = None
-for possible in ['price', 'Price', 'final_price']:
+for possible in ['price']:
     if possible in df.columns:
         price_col = possible
         break
