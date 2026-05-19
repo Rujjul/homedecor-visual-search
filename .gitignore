@@ -12,6 +12,7 @@ __pycache__/
 
 # Large data files (regeneratable)
 data/images/
+data/processed/
 data/raw/
 embeddings/
 *.npy
